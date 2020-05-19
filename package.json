@@ -1,0 +1,15 @@
+{
+  "name": "fake-server",
+  "version": "1.0.0",
+  "description": "test api",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "run": "npm run json:server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
